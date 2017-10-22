@@ -1,0 +1,399 @@
+	im: get_inode 1
+	im: inode not exist
+	im: put_inode 1
+FUSE library version: 2.9.2
+unique: 1, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.22
+flags=0x0000f7fb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000000
+   max_readahead=0x00020000
+   max_write=0x00020000
+   max_background=0
+   congestion_threshold=0
+   unique: 1, success, outsize: 40
+unique: 2, opcode: LOOKUP (1), nodeid: 1, insize: 48, pid: 2224
+extent_server: get 1
+	im: get_inode 1
+   unique: 2, error: -2 (No such file or directory), outsize: 16
+unique: 3, opcode: CREATE (35), nodeid: 1, insize: 64, pid: 2224
+extent_server: get 1
+	im: get_inode 1
+extent_server: get 1
+	im: get_inode 1
+extent_server: create inode
+	im: get_inode 1
+	im: get_inode 2
+	im: inode not exist
+	im: put_inode 2
+	im: get_inode 1
+	im: put_inode 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getattr 0000000000000002 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getfile 0000000000000002
+extent_server: getattr 2
+	im: get_inode 2
+getfile 0000000000000002 -> sz 0
+   getattr -> 0
+   unique: 3, success, outsize: 160
+OK: create returns.
+unique: 4, opcode: FLUSH (25), nodeid: 2, insize: 64, pid: 2224
+   unique: 4, error: -38 (Function not implemented), outsize: 16
+unique: 5, opcode: SETATTR (4), nodeid: 2, insize: 128, pid: 2224
+fuseserver_setattr 0x8
+   fuseserver_setattr set size to 3072
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getattr 0000000000000002 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getfile 0000000000000002
+extent_server: getattr 2
+	im: get_inode 2
+getfile 0000000000000002 -> sz 3072
+   getattr -> 3072
+   unique: 5, success, outsize: 120
+unique: 6, opcode: REMOVEXATTR (24), nodeid: 2, insize: 53, pid: 2224
+   unique: 6, error: -38 (Function not implemented), outsize: 16
+unique: 7, opcode: IOCTL (39), nodeid: 2, insize: 72, pid: 2224
+   unique: 7, error: -38 (Function not implemented), outsize: 16
+unique: 8, opcode: GETXATTR (22), nodeid: 2, insize: 68, pid: 2224
+   unique: 8, error: -38 (Function not implemented), outsize: 16
+unique: 9, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 9, success, outsize: 24
+unique: 10, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 10, success, outsize: 24
+unique: 11, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 11, success, outsize: 24
+unique: 12, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 12, success, outsize: 24
+unique: 13, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 13, success, outsize: 24
+unique: 14, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 14, success, outsize: 24
+unique: 15, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 15, success, outsize: 24
+unique: 16, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 16, success, outsize: 24
+unique: 17, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 17, success, outsize: 24
+unique: 18, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 18, success, outsize: 24
+unique: 19, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 19, success, outsize: 24
+unique: 20, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 20, success, outsize: 24
+unique: 21, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 21, success, outsize: 24
+unique: 22, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 22, success, outsize: 24
+unique: 23, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 23, success, outsize: 24
+unique: 24, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 24, success, outsize: 24
+unique: 25, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 25, success, outsize: 24
+unique: 26, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 26, success, outsize: 24
+unique: 27, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 27, success, outsize: 24
+unique: 28, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 28, success, outsize: 24
+unique: 29, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 29, success, outsize: 24
+unique: 30, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 30, success, outsize: 24
+unique: 31, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 31, success, outsize: 24
+unique: 32, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 32, success, outsize: 24
+unique: 33, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 33, success, outsize: 24
+unique: 34, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 34, success, outsize: 24
+unique: 35, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 35, success, outsize: 24
+unique: 36, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 36, success, outsize: 24
+unique: 37, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 37, success, outsize: 24
+unique: 38, opcode: WRITE (16), nodeid: 2, insize: 1104, pid: 2224
+extent_server: get 2
+	im: get_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 38, success, outsize: 24
+unique: 39, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 39, success, outsize: 16
+unique: 40, opcode: LOOKUP (1), nodeid: 1, insize: 48, pid: 2225
+extent_server: get 1
+	im: get_inode 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getattr 0000000000000002 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getfile 0000000000000002
+extent_server: getattr 2
+	im: get_inode 2
+getfile 0000000000000002 -> sz 33792
+   getattr -> 33792
+   unique: 40, success, outsize: 144
+unique: 41, opcode: GETATTR (3), nodeid: 2, insize: 56, pid: 2225
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getattr 0000000000000002 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getfile 0000000000000002
+extent_server: getattr 2
+	im: get_inode 2
+getfile 0000000000000002 -> sz 33792
+   getattr -> 33792
+   unique: 41, success, outsize: 120
+unique: 42, opcode: LOOKUP (1), nodeid: 1, insize: 48, pid: 2225
+extent_server: get 1
+	im: get_inode 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getattr 0000000000000002 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getfile 0000000000000002
+extent_server: getattr 2
+	im: get_inode 2
+getfile 0000000000000002 -> sz 33792
+   getattr -> 33792
+   unique: 42, success, outsize: 144
+unique: 43, opcode: OPEN (14), nodeid: 2, insize: 48, pid: 2225
+   unique: 43, success, outsize: 32
+unique: 44, opcode: READ (15), nodeid: 2, insize: 80, pid: 2225
+extent_server: get 2
+	im: get_inode 2
+   unique: 44, success, outsize: 16400
+unique: 45, opcode: READ (15), nodeid: 2, insize: 80, pid: 2225
+extent_server: get 2
+	im: get_inode 2
+   unique: 45, success, outsize: 17424
+unique: 46, opcode: GETATTR (3), nodeid: 2, insize: 56, pid: 2225
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getattr 0000000000000002 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getfile 0000000000000002
+extent_server: getattr 2
+	im: get_inode 2
+getfile 0000000000000002 -> sz 33792
+   getattr -> 33792
+   unique: 46, success, outsize: 120
+unique: 47, opcode: GETATTR (3), nodeid: 2, insize: 56, pid: 2225
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getattr 0000000000000002 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getfile 0000000000000002
+extent_server: getattr 2
+	im: get_inode 2
+getfile 0000000000000002 -> sz 33792
+   getattr -> 33792
+   unique: 47, success, outsize: 120
+unique: 48, opcode: RELEASE (18), nodeid: 2, insize: 64, pid: 0
+   unique: 48, success, outsize: 16
+unique: 49, opcode: LOOKUP (1), nodeid: 1, insize: 48, pid: 2226
+extent_server: get 1
+	im: get_inode 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getattr 0000000000000002 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getfile 0000000000000002
+extent_server: getattr 2
+	im: get_inode 2
+getfile 0000000000000002 -> sz 33792
+   getattr -> 33792
+   unique: 49, success, outsize: 144
+unique: 50, opcode: GETATTR (3), nodeid: 2, insize: 56, pid: 2226
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getattr 0000000000000002 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getfile 0000000000000002
+extent_server: getattr 2
+	im: get_inode 2
+getfile 0000000000000002 -> sz 33792
+   getattr -> 33792
+   unique: 50, success, outsize: 120
+unique: 51, opcode: LOOKUP (1), nodeid: 1, insize: 48, pid: 2226
+extent_server: get 1
+	im: get_inode 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getattr 0000000000000002 1
+extent_server: getattr 2
+	im: get_inode 2
+isfile: 2 is a file
+getfile 0000000000000002
+extent_server: getattr 2
+	im: get_inode 2
+getfile 0000000000000002 -> sz 33792
+   getattr -> 33792
+   unique: 51, success, outsize: 144
+unique: 52, opcode: UNLINK (10), nodeid: 1, insize: 48, pid: 2226
+extent_server: get 1
+	im: get_inode 1
+	im: get_inode 1
+	im: put_inode 1
+extent_server: write 2
+	im: get_inode 2
+	im: put_inode 2
+	im: get_inode 2
+	im: put_inode 2
+   unique: 52, success, outsize: 16
+unique: 53, opcode: FORGET (2), nodeid: 2, insize: 48, pid: 0
